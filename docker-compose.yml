@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  notebook-app:
+    command: jupyter lab -y --allow-root --no-browser --ip='*' --NotebookApp.token='' --NotebookApp.password='' --port=8888 --notebook-dir=/opt/project/
+    build: notebooks
+    shm_size: '2gb'
+    environment:
+      - CUDA_MODULE_LOADING="LAZY"
+    volumes:
+      - './notebooks/code/:/opt/project'
+    ports:
+      - "8888:8888" # Juypter port

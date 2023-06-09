@@ -1,0 +1,15 @@
+jupyterlab==4.0.1
+ipywidgets==8.0.6
+packaging
+sentencepiece
+onnxruntime-gpu
+bitsandbytes>=0.39.0
+accelerate
+transformers
+optimum
+datasets
+onnx
+scipy
+--extra-index-url https://pypi.ngc.nvidia.com
+polygraphy
+onnx_graphsurgeon
