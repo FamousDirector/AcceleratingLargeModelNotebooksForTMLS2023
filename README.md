@@ -45,7 +45,7 @@ sudo service docker restart
 
 Then test the installation:
 ```
-docker run nvcr.io/nvidia/cuda:11.0.3-base-ubuntu20.04 nvidia-smi
+docker run nvcr.io/nvidia/cuda nvidia-smi
 ```
 
 You should see a similar output:
@@ -80,13 +80,5 @@ bash run.sh
 ```
 
 ### Accessing the Notebooks
-Navigate to [http://localhost:8884/lab](http://localhost:8884/lab)
+Navigate to [http://localhost:8888/lab](http://localhost:8888/lab)
 
-### Montioring the services
-Prometheus and Grafana have been configured to monitor the services. 
-Go to the [dashboard](http://localhost:3000/dashboards) to see some example GPU usage metrics.
-
-## References
-- Grafana [documentation](https://grafana.com/docs/grafana/latest/installation/docker/)
-- Prometheus [documentation](https://prometheus.io/docs/introduction/install/)
-- Gradio [documentation](https://gradio.app/docs/)
