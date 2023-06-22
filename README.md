@@ -1,7 +1,7 @@
 # Notebooks on how to Accelerate Large AI model inference
 This repository was created to add code examples to be used alongside the workshop 
 "Accelerating Large Models In Production: A Practical Guide"
-presented at Toronto Machine Learning Summit 2023 by James Cameron. [Slides and notes can be found here](https://docs.google.com/presentation/d/1uIPgECdBn_rDhQtKED9Ia4li_wAVUNGuiwMuSkotdWA/edit?usp=sharing)
+presented at Toronto Machine Learning Summit 2023 by James Cameron. [Slides and notes can be found here](https://docs.google.com/presentation/d/1-yytFP6ghuNfMMKR84diIe1P4ImEQUr8j5H3mQbfiNU/edit?usp=sharing)
 
 ## Disclaimer
 This repository is meant to serve as a starting point for new projects.
